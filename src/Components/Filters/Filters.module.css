@@ -1,0 +1,30 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+}
+
+.formikForm {
+    display:flex;
+    flex-direction: column;
+    margin:0 10px;
+}
+
+.formikForm p {
+    margin:0 0 10px 0;
+    font-weight: bold;
+}
+
+.formikForm input {
+    height: 30px;
+    font-size:17px;
+    margin:0 0 10px 0;
+    padding:0 5px;
+    border: 1px solid #969696;
+}
+
+.formikForm button {
+    font-size: 17px;
+    background-color: #fff;
+    border: 1px solid #969696;
+}

@@ -1,0 +1,30 @@
+.wrapper {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.productBlock {
+    width:300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    border: 1px solid #969696;
+    margin: 0 20px 20px 0;
+}
+
+.imgBlock a {
+    text-decoration: none;
+    color: black;
+}
+
+.name {
+    width:250px;
+}
+
+.imgProduct {
+    margin:10px;
+    width:150px;
+}
